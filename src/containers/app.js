@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import NavBar from './nav_bar';
-import AppContainer from '../containers/app_container';
+import NavBar from '../components/nav_bar_component';
+import AppContainer from './app_body_container';
 
 export default class App extends Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <NavBar />
         <AppContainer />
       </div>
