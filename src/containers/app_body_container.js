@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import LiveStream from './home_page/news_feed/live_stream_container';
+import NewsFeed from './home_page/news_feed/news_feed_container';
 
-export default class AppContainer extends Component {
+export default class AppBodyContainer extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <LiveStream />
+        <NewsFeed />
       </div>
     );
   }
