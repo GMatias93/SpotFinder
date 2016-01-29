@@ -31,7 +31,7 @@ class SearchBar extends Component {
 }
 
 function mapDispatchToProps(dispatch) {
-  return bindActionCreator({ fetchEvents }, dispatch);
+  return bindgerfActionCreator({ fetchEvents }, dispatch);
 }
 
 export default connect(null, mapDispatchToProps)(SearchBar);
