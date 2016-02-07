@@ -1,9 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './components/app';
+class App extends Component {
+  constructor(props) {
+    super(props);
 
-ReactDOM.render(
-  <App />,
-  document.querySelector('.container')
-);
+    this.state = { events: [] };
+  }
+
+  render() {
+    return <div>App!</div>;
+  }
+}
+
+ReactDOM.render(<App />, document.querySelector('.container'));
